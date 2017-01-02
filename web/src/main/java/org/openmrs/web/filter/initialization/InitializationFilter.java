@@ -149,8 +149,8 @@ public class InitializationFilter extends StartupFilter {
 	private static final String WIZARD_COMPLETE = "wizardcomplete.vm";
 	
 	/**
-	 * A page that lists off what is happening while it is going on. This page has ajax that callst
-	 * he {@value #PROGRESS_VM_AJAXREQUEST} page
+	 * A page that lists off what is happening while it is going on. This page has ajax that calls 
+	 * the {@value #PROGRESS_VM_AJAXREQUEST} page
 	 */
 	private static final String PROGRESS_VM = "progress.vm";
 	
@@ -172,7 +172,7 @@ public class InitializationFilter extends StartupFilter {
 	
 	/**
 	 * Variable set to true as soon as the installation begins and set to false when the process
-	 * ends This thread should only be accesses through the synchronized method.
+	 * ends. This thread should only be accesses through the synchronized method.
 	 */
 	private static boolean isInstallationStarted = false;
 	
